@@ -13,7 +13,7 @@ export default function Header() {
   //color change while scrolling
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY >= 90) {
+    if (window.scrollY >= 50) {
       setColor(true);
     } else {
       setColor(false);

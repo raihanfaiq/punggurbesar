@@ -1,6 +1,7 @@
 import VideoThumb from "@/public/images/hero-image.png";
 import ModalVideo from "@/components/modal-video";
 import { HeroImage } from "@/public/images/HeroImage";
+import Image from "@/public/images/hero.jpg";
 
 export default function Hero() {
   return (
@@ -23,23 +24,21 @@ export default function Hero() {
       </div>
 
       {/* Hero content */}
-      <div className="pt-6 pl-8">
-        {/* Section header */}
-        <div className="bg-#[#28400D] relative max-w-md sm:max-w-xl">
-          <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
-            <div className="relative w-full pb-4 space-y-8 ml-17 pt-20 md:ml-10 lg:ml-20">
-              <h1 className="text-[36px] font-bold leading-none text-white ">
-                Memelihara, Memanen, <br /> & Menyebarkan
-              </h1>
-              <p className="text-[16px] text-gray-300 w-11/12 md:w-12/12  ">
-                Punggur Besar merupakan Desa Perkebunan dengan hasil bumi yang melimpah yang dimanfaatkan secara mentah maupun dijadikan sebagai bahan dasar pembuatan berbagai macam olahan
-              </p>
-              <p className="text-[#E8BB15]">JELAJAHI DESA</p>
-            </div>
-            <div className="w-full h-80 border-l mt-4 sm:mt-7 md:mt-20 md:ml-20">
-              {/* Hero image */}
-              {/* <HeroImage/> */}
-              <img className="md:h-full md:w-80 " src="/images/hero.png" alt="" />
+      <div className="w-full py-16 px-4">
+        <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
+          <img className="border-2 border-white w-[500px] md:w-full mx-auto my-4" src="/images/hero.png" alt="/" />
+          <div className="flex flex-col justify-center text-center md:ml-8 md:text-left">
+            <h1 className="text-[#F1EAE2] font-bold text-2xl md:text-4xl sm:text-3xl py-2">
+              Memelihara, Memanen, <br /> & Menyebarkan
+            </h1>
+            <h4 className="text-[#F1EAE2] ">
+              Punggur Besar merupakan Desa Perkebunan <br /> dengan hasil bumi yang melimpah yang <br />
+              dimanfaatkan secara mentah maupun dijadikan sebagai bahan dasar pembuatan berbagai macam olahan
+            </h4>
+
+            <div className="flex pt-2 mx-auto md:mx-0">
+              <h3 className="text-[#E8BB15]">Jelajahi Desa</h3>
+              <img className="w-[50px] ml-4" src="/images/icon.png" alt="/" />
             </div>
           </div>
         </div>
