@@ -45,7 +45,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/signin" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
+                <Link href="/(default)" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
                   Komoditas
                 </Link>
               </li>
