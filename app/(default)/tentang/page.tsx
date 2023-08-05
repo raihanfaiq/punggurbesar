@@ -9,13 +9,13 @@ import Fasilitas from "./fasilitas";
 import Sejarah from "./sejarah";
 import Footer from "./footer";
 
-export default function SignIn() {
+export default function Tentang() {
   return (
     <>
       <Herobout />
       <Fasilitas />
       <Sejarah />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

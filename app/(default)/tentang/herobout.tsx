@@ -3,7 +3,7 @@ import ModalVideo from '@/components/modal-video';
 import { HeroImage } from '@/public/images/HeroImage';
 import Image from '@/public/images/hero.jpg';
 
-export default function Hero() {
+export default function Herobout() {
   return (
     <section className="relative bg-[#28400D]">
       {/* Illustration behind hero content */}
@@ -35,32 +35,24 @@ export default function Hero() {
       </div>
 
       {/* Hero content */}
-      <div className="w-full pt-20 pl-4 ml-10">
-        <div className="grid md:grid-cols-5">
-          <div className="flex flex-col justify-center col-span-3 py-12 text-center md:ml-8 md:text-left">
-            <h1 className="text-[#F1EAE2] font-bold text-2xl md:text-[64px] sm:text-3xl pt-10 font-[AbrilFatFace] leading-tight">
-              Memelihara, Memanen, <br /> & Menyebarkan
+      <div className="w-full px-4 pt-16">
+        <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
+          <div className="flex flex-col justify-center w-2/3 text-center md:ml-8 md:text-center">
+            <img className="mx-auto" src="/images/tentang_hero.svg" alt="/" />
+            <h1 className="text-[#F1EAE2] font-bold text-2xl md:text-4xl sm:text-3xl py-2">
+              Kami di Sini
             </h1>
-            <h4 className="text-[#F1EAE2] text-[16px] w-3/4 font-[JosefinSans] pb-10 pt-4">
-              Punggur Besar merupakan Desa Perkebunan dengan hasil bumi yang
-              melimpah yang dimanfaatkan secara mentah maupun dijadikan sebagai
-              bahan dasar pembuatan berbagai macam olahan
+            <h4 className="text-[#F1EAE2] mb-4">
+              Punggur Besar merupakan salah satu desa di Kecamatan Sungai Kakap
+              yang dikenal atas hasil perkebunannya. Kamu dapat menikmati hasil
+              kebun itu dengan mengunjungi Desa Punggur Besar yang terletak
+              sejauh 15km jika ditempuh dari Kota Pontianak
             </h4>
-
-            <div className="flex pt-2 mx-auto md:mx-0">
-              <h3 className="text-[#E8BB15] font-[AbrilFatface] text-[24px]">
-                Jelajahi Desa
-              </h3>
-              <img
-                className="w-[64px] h-[28px] ml-4"
-                src="/images/icon.png"
-                alt="/"
-              />
-            </div>
+            <img className="mx-auto" src="/images/tentang_hero.svg" alt="/" />
           </div>
           <img
-            className="border-l-2 border-white w-[500px] md:w-full h-full col-span-2"
-            src="/images/hero.png"
+            className=" w-[500px] md:w-full mx-auto my-4"
+            src="/images/peta.png"
             alt="/"
           />
         </div>

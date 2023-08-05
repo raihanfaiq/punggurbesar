@@ -22,7 +22,7 @@ export default function Header() {
 
   window.addEventListener("scroll", changeColor);
   return (
-    <header className={color ? "header header-bg" : "header"}>
+    <header className={color ? "header header-bg border-b-2" : "header border-b-2"}>
       <div className="px-5 ml-14 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
@@ -35,7 +35,7 @@ export default function Header() {
             {/* Desktop sign in links */}
             <ul className="flex flex-wrap items-center justify-end grow">
               <li>
-                <Link href="/signin" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
+                <Link href="/tentang" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
                   Tentang
                 </Link>
               </li>
