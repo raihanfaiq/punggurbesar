@@ -10,15 +10,15 @@ export default function Footer() {
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 lg:grid-cols-8 ">
           {/* 1nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2 ">
-            <h2 className="font-medium text-[25px] mb-2 text-white">Tentang Desa</h2>
-            <ul className="text-sm ">
+            <h2 className="font-bold text-[25px] mb-2 text-white font-[AbrilFatFace] ">Tentang Desa</h2>
+            <ul className="text-sm font-[JosefinSans]">
               <li className="mb-2">
                 <a href="#0" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">
                   Nilai-Nilai
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">
+                <a href="/tentang" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">
                   Proses Berkebun
                 </a>
               </li>
@@ -42,9 +42,9 @@ export default function Footer() {
 
           {/* 2rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2 pt-4">
-            <h2 className="text-white font-medium text-[25px] mb-2">Komoditas</h2>
+            <h2 className="text-white  text-[25px] mb-2 font-bold font-[AbrilFatFace]">Komoditas</h2>
 
-            <ul className="text-sm">
+            <ul className="text-sm font-[JosefinSans]">
               <li className="mb-2">
                 <a href="#0" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">
                   Komoditas Mentah
@@ -58,11 +58,13 @@ export default function Footer() {
             </ul>
           </div>
 
+          <hr className="h-px mx-16  border-red-700 border-0 dark:bg-yellow-400" />
+
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2 pt-4">
             <img className="mx-auto pb-6" src="/images/logo.png" alt="" />
 
-            <ul className="text-sm">
+            <ul className="text-sm font-[JosefinSans]">
               <li className="mb-2">
                 <a href="#0" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">
                   KKN-PPM UGM 2023
@@ -76,10 +78,12 @@ export default function Footer() {
             </ul>
           </div>
 
+          <hr className="h-px mx-16 border-red-700 border-0 dark:bg-yellow-400" />
+
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2 pt-4">
-            <h6 className="text-white font-medium mb-2">Kontak</h6>
-            <ul className="text-sm">
+            <h6 className="text-white  mb-2 font-bold font-[AbrilFatFace]">Kontak</h6>
+            <ul className="text-sm font-[JosefinSans]">
               <li className="mb-2">
                 <a href="#0" className="text-white hover:text-gray-900 transition duration-150 ease-in-out">
                   Telefon: 085251853685
