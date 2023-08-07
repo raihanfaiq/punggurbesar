@@ -1,8 +1,3 @@
-export const metadata = {
-  title: "Tentang Kami",
-  description: "Page description",
-};
-
 import Link from "next/link";
 import Herobout from "./herobout";
 import Fasilitas from "./fasilitas";
