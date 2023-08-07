@@ -13,17 +13,17 @@ export default function Header() {
   //color change while scrolling
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    // if (window.scrollY >= 50) {
-    //   setColor(true);
-    // } else {
-    //   setColor(false);
-    // }
+    if (window.scrollY >= 50) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
   };
 
-  // window.addEventListener("scroll", changeColor);
+  window.addEventListener("scroll", changeColor);
   return (
     <header className={color ? "header header-bg border-b-2" : "header border-b-2"}>
-      <div className="px-5 ml-14 sm:px-6">
+      <div className="px-5 ml-14 sm:px-6 ">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
           <div className="mr-4 shrink-0">
