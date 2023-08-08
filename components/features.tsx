@@ -17,8 +17,8 @@ export default function Features() {
           </h1>
         </div>
         <div className="flex text-[#28400D]">
-          <h1 className="text-[48px] font-[AbrilFatface] font-bold">100k</h1>
-          <h1 className="mt-2 ml-4 text-[16px] font-[JosefinSans]">
+          <h1 className="text-[40px] font-[AbrilFatface] font-bold">100k</h1>
+          <h1 className="mt-2 ml-4 text-[14px] font-[JosefinSans]">
             Rata-Rata Panenan <br /> per Komoditas
           </h1>
         </div>
@@ -29,8 +29,8 @@ export default function Features() {
           </h1>
         </div>
         <div className="flex text-[#28400D]">
-          <h1 className="text-[48px] font-[AbrilFatface] font-bold ">10k+</h1>
-          <h1 className="mt-2 ml-4 text-[16px] font-[JosefinSans]">
+          <h1 className="text-[42px] font-[AbrilFatface] font-bold ">10k+</h1>
+          <h1 className="mt-2 ml-4 text-[12px] font-[JosefinSans]">
             Hektar Lahan <br /> Perkebunan
           </h1>
         </div>
