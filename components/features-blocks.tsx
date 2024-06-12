@@ -39,7 +39,7 @@ export default function FeaturesBlocks() {
         </div>
       </div>
       {/*Transisi*/}
-      <div className="bg-[#E8BB15] py-8">
+      <div className="bg-[#E8BB15] py-8" id="proses">
         <div className="grid grid-cols-2 gap-4">
           <h1 className="font-bold text-[#28400D] text-[27px] mt-8 md:mt-0 md:text-[45px] lg:text-[64px] ml-12 font-[AbrilFatface]">Proses Berkebun</h1>
           <img className="w-full h-[52px] mt-6" src="images/pattern2.png" alt="/" />

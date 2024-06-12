@@ -1,6 +1,6 @@
 export default function Newsletter() {
   return (
-    <section>
+    <section id="komoditas">
       <div className="bg-[#F1EAE2]">
         <div className="pb-12 md:pb-20 columns-1">
           <div className="mx-auto text-center pt-16 text-[#7A4631] columns-1 md:columns-2 px-12">
@@ -25,7 +25,7 @@ export default function Newsletter() {
             </div>
           ))}
           {/* slider transition */}
-          <div className="mx-auto text-center pt-16 text-[#7A4631] columns-1 md:columns-2">
+          <div className="mx-auto text-center pt-16 text-[#7A4631] columns-1 md:columns-2" id="produk">
             <h1 className="font-extrabold text-3xl md:pt-4 md:text-[50px] font-[AbrilFatFace]">Produk Olahan</h1>
             <p className="pt-6 font-bold text-[14px] px-4 text-center md:text-left font-[JosefinSans]">
               Melalui kreativitas yang dipadukan dengan ketersediaan bahan mentah yang melimpah, desa Punggur Besar memiliki berbagai macam produk olahan yang juga melimpah

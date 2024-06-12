@@ -6,7 +6,7 @@ import Carousel from "./carousel";
 
 export default function Slider() {
   return (
-    <section>
+    <section >
       <div className="bg-[#F1EAE2] ">
         <Carousel />
       </div>

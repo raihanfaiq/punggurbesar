@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-
 import Link from "next/link";
 import Logo from "./logo";
 import Dropdown from "@/components/utils/dropdown";
@@ -12,15 +11,22 @@ import "./style.css";
 export default function Header() {
   //color change while scrolling
   const [color, setColor] = useState(false);
+
   const changeColor = () => {
-    // if (window.scrollY >= 50) {
-    //   setColor(true);
-    // } else {
-    //   setColor(false);
-    // }
+    if (window.scrollY >= 50) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
   };
 
-  // window.addEventListener("scroll", changeColor);
+  useEffect(() => {
+    window.addEventListener("scroll", changeColor);
+    return () => {
+      window.removeEventListener("scroll", changeColor);
+    };
+  }, []);
+
   return (
     <header className={color ? "header header-bg border-b-2" : "header border-b-2"}>
       <div className="px-5 ml-14 sm:px-6 ">
@@ -42,17 +48,17 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/proses" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
+                <Link href="/#proses" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
                   Proses
                 </Link>
               </li>
               <li>
-                <Link href="/pinang" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
+                <Link href="/#komoditas" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
                   Komoditas
                 </Link>
               </li>
               <li>
-                <Link href="/signin" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
+                <Link href="/#produk" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
                   Produk
                 </Link>
               </li>
@@ -62,7 +68,6 @@ export default function Header() {
           <MobileMenu />
         </div>
       </div>
-      <script></script>
     </header>
   );
 }
