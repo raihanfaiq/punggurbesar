@@ -8,7 +8,7 @@ export default function Sejarah() {
     <section className="relative bg-[#28400D] pt-12 pl-8 pr-8">
       <div className="w-full py-16 ">
         <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
-          <img className=" w-[500px]  mx-auto my-4 " src="/images/sejarah.png" alt="/" />
+          <img className=" w-[500px]  mx-auto my-4 " src="/images/map.jpg" alt="/" />
           <div className="flex flex-col justify-center text-center md:ml-8 md:text-center">
             <h4 className="text-[#F1EAE2] font-[JosefinSans]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni cupiditate dolores, quam similique sapiente labore ipsam necessitatibus, maxime dignissimos odio natus error rerum ratione. Tenetur error quaerat dolore

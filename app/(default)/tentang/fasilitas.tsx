@@ -14,7 +14,7 @@ export default function Fasilitas() {
         <p className="pt-6 font-bold text-[14px] font-[JosefinSans] px-4 text-center ">
           Desa Punggur Besar memiliki berbagai fasilitas umum yang menunjang kegiatan sehari hari <br /> masyarakat maupun pengunjung dari luar desa. Berikut adalah fasilitas umum yang ditawarkan desa Punggur Besar
         </p>
-        <img className="px-6 pt-6 w-[500px] mx-auto my-4 md:w-[400px] lg:w-[700px]" src="/images/fasil.png" alt="/" />
+        <img className="px-6 pt-6 w-full h-full mx-auto my-4 md:w-[400px] lg:w-[700px]" src="/images/desapunggur.png" alt="/" />
         <div className="px-12 columns-1 md:columns-2 md:px-14">
           <p className="pt-6 font-bold text-[14px] font-[JosefinSans] text-left">
             Pasar Punggur Besar menjadi salah satu pusat masyarakat dalam beraktivitas karena menawarkan banyak kebutuhan pokok maupun sampingan. Pasar menjual berbagai bahan masakan seperti sayur, ikan, bumbu masakan, gas, air, dan produk

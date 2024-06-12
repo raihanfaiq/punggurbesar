@@ -27,7 +27,9 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
           <div className="mr-4 shrink-0">
-            <Logo />
+            <a href="/">
+              <Logo />
+            </a>
           </div>
 
           {/* Desktop navigation */}
@@ -40,12 +42,12 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/signin" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
+                <Link href="/proses" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
                   Proses
                 </Link>
               </li>
               <li>
-                <Link href="/(default)" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
+                <Link href="/pinang" className="flex items-center px-5 py-3 font-medium text-[#FFFFFF] transition duration-150 ease-in-out hover:text-gray-900">
                   Komoditas
                 </Link>
               </li>

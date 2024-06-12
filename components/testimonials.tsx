@@ -32,7 +32,7 @@ export default function Testimonials() {
             return <EventItem key={index} index={index + 1} event={event} activeEvent={activeEvent} setActiveEvent={setActiveEvent} />;
           })}
         </div>
-        <img className="border-2 border-amber-400 w-[500px] md:w-full mx-auto my-4" src="/images/grey.png" alt="/" />
+        <img className="border-2 border-amber-400 w-[500px] md:w-full mx-auto my-4" src="/images/sawah.png" alt="/" />
       </div>
     </div>
   );
